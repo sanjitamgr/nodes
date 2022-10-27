@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: sanjitamgr
+      IMAGE_NAME: sanjitamgr/nodes
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
